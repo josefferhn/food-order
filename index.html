@@ -1,0 +1,328 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Food Order App</title>
+<link href="css/framework7.bundle.min.css" rel="stylesheet">
+<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+<link href="css/style.css" rel="stylesheet">
+
+</head>
+
+<body>
+	
+	<div id="app">
+			
+		<section id="nav-panel" class="panel panel-right panel-cover">
+		
+			<div class="block">
+				<div class="row">
+				
+					<article class="col-30">
+						<img src="img/avatar.png" alt="" class="img-fluid">
+					</article>
+					<article class="col-70">
+						<h4>Steven Smith</h4>
+						steven@gmail.com
+					</article>
+				</div>
+			</div><!-- block -->
+		
+			
+			<div class="list media-list no-margin-top">
+			<ul>
+				<li>
+				  <a href="/fast-food/" class="item-link item-content panel-close">
+					<div class="item-media"><span class="material-icons">view_stream</span></div>
+					<div class="item-inner">
+					  <div class="item-title">All Products</div>
+					</div>
+				  </a>
+				</li>	
+				<li>
+				  <a href="#" class="item-link item-content panel-close">
+					<div class="item-media"><span class="material-icons">account_box</span></div>
+					<div class="item-inner">
+					  <div class="item-title">My Profile</div>
+					</div>
+				  </a>
+				</li>	
+				<li>
+				  <a href="#" class="item-link item-content panel-close">
+					<div class="item-media"><span class="material-icons">place</span></div>
+					<div class="item-inner">
+					  <div class="item-title">Delivery Address</div>
+					</div>
+				  </a>
+				</li>
+				<li>
+				  <a href="#" class="item-link item-content panel-close">
+					<div class="item-media"><span class="material-icons">credit_card</span></div>
+					<div class="item-inner">
+					  <div class="item-title">Payments Methods</div>
+					</div>
+				  </a>
+				</li>	
+				<li>
+				  <a href="#" class="item-link item-content panel-close">
+					<div class="item-media"><span class="material-icons">mail_outline</span></div>
+					<div class="item-inner">
+					  <div class="item-title">Contact Us</div>
+					</div>
+				  </a>
+				</li>	
+				<li>
+				  <a href="#" class="item-link item-content panel-close">
+					<div class="item-media"><span class="material-icons">settings</span></div>
+					<div class="item-inner">
+					  <div class="item-title">Settings</div>
+					</div>
+				  </a>
+				</li>	
+				<li>
+				  <a href="#" class="item-link item-content panel-close">
+					<div class="item-media"><span class="material-icons">help_outline</span></div>
+					<div class="item-inner">
+					  <div class="item-title">FAQ</div>
+					</div>
+				  </a>
+				</li>	
+			</ul>
+			</div>
+			
+		</section>
+		
+		<div class="view view-main view-init">
+        
+			<section data-name="home" class="page">
+
+			  <!-- Top Navbar -->
+			  <nav class="navbar">
+				<div class="navbar-bg"></div>
+				<div class="navbar-inner">
+				  	<div class="title">Food Order</div>
+					<div class="right">
+						<a href="#" class="link panel-open" data-panel="right">
+							<i class="material-icons">menu</i>
+						</a>
+					</div>
+				</div>
+			  </nav>
+
+
+			  <section class="page-content">
+				  
+				  <div id="nav-categorias" class="block">
+				  
+					  	<div class="swiper-container swiper-init" data-slides-per-view="3" data-space-between="10">
+							<div class="swiper-wrapper">
+								<div class="swiper-slide">
+									<a href="/fast-food/" class="button button-fill col-33">
+									  <span class="material-icons">lunch_dining</span> Fast Foood
+								  	</a>
+								</div>
+								<div class="swiper-slide">
+									<a href="#" class="button button-fill col-33">
+										<span class="material-icons">local_pizza</span> Pizza
+									</a>
+								</div>
+								<div class="swiper-slide">
+									<a href="#" class="button button-fill col-33">
+							  			<span class="material-icons">bakery_dining</span> Bakery
+						  			</a>
+								</div>
+								<div class="swiper-slide">
+									<a href="#" class="button button-fill col-33">
+							  			<span class="material-icons">liquor</span> Drinks
+						  			</a>
+								</div>
+							</div>
+						</div><!-- swiper -->
+					  
+
+				  </div><!-- nav-categories -->
+				  
+				  
+				  <div class="row row-titles">
+				  
+					  <article class="col-70">
+					  	<h2 class="block-title">Popular Item</h2>
+					  </article>
+					  
+					  <article class="col-30">
+					  	<h2 class="block-title block-title-small">See All</h2>
+					  </article>
+					  
+				  </div>
+				  
+				  <div class="block no-margin-top">
+				  
+					  <div class="row">
+					  
+						  <article class="col">
+						  	  <div class="card product">
+								  
+								  <div class="card-content">
+								  	<img src="img/big-tasty.png" alt="" class="img-fluid">
+								  	<h3>Beef Burger</h3>
+								  	<p>Classic</p>
+								  </div>
+							  	  <div class="card-footer">								  
+									  <span class="price">$7.90</span>
+									  <a href="/info-producto/"><span class="material-icons">add_circle</span></a>					  
+								  </div>
+								  
+							  </div>			  
+						  </article>
+						  
+						  <article class="col">						  
+						  	<div class="card product">
+								  
+								  <div class="card-content">
+								  	<img src="img/pepperoni.png" alt="" class="img-fluid">
+								  	<h3>Pizza</h3>
+									  <p>Pepperoni</p>
+								  </div>
+							  	  <div class="card-footer">								  
+									  <span class="price">$8.90</span>
+									  <a href="/info-producto/"><span class="material-icons">add_circle</span></a>					  
+								  </div>
+								  
+							  </div>
+						  </article>
+					  
+					  </div>
+				  
+				</div><!-- block -->
+				  
+				  
+				<div class="row row-titles">
+				  
+					<article class="col-70">
+						<h2 class="block-title">Recommend Item</h2>
+					</article>
+
+					<article class="col-30">
+						<h2 class="block-title block-title-small">See All</h2>
+					</article>
+					  
+				</div><!-- row-titles -->
+				  
+				  
+				<div id="product-columns" class="block no-margin-top">
+
+					
+					<div class="swiper-container swiper-init" data-slides-per-view="1" data-space-between="10" data-centered-slides="true" data-pagination='{"el": ".swiper-pagination"}'>
+						<div class="swiper-pagination"></div>
+						<div class="swiper-wrapper">
+					
+							<div class="swiper-slide">
+								<a href="/info-producto/">
+								<article class="card product text-align-left">
+
+									<div class="card-content">
+
+										<div class="row">
+											<article class="col-50">
+												<img src="img/apple-pie.png" alt="" class="img-fluid">
+											</article>
+											<article class="col-50 content">
+												<h3>Apple Pie</h3>
+												<p>Dessert</p>
+												<div class="row">
+													<article class="col">
+														<span class="price">$7.90</span>
+													</article>
+													<article class="col review">
+														<span class="material-icons">star</span> 4.5
+													</article>
+												</div>
+											</article>
+										</div>
+
+									</div>
+
+								</article><!-- card -->	
+								</a>
+							</div>
+							
+							<div class="swiper-slide">
+								<a href="/info-producto/">
+								<article class="card product text-align-left">
+
+									<div class="card-content">
+
+										<div class="row">
+											<article class="col-50">
+												<img src="img/chocolate-donut.png" alt="" class="img-fluid">
+											</article>
+											<article class="col-50 content">
+												<h3>Chocolate Donut</h3>
+												<p>Dessert</p>
+												<div class="row">
+													<article class="col">
+														<span class="price">$3.20</span>
+													</article>
+													<article class="col review">
+														<span class="material-icons">star</span> 3.5
+													</article>
+												</div>
+											</article>
+										</div>
+
+									</div>
+
+								</article><!-- card -->		
+								</a>
+							</div>
+							
+						</div>
+					</div>
+
+				</div><!-- block -->
+				  
+				  
+				  
+				  
+				  
+				  
+				  
+				  
+				  
+				  
+				  
+			  </section> <!--/page-content -->
+
+			</section> <!--/page -->
+			
+			
+
+            <nav class="toolbar toolbar-bottom tabbar">
+                <div class="toolbar-inner">
+                    <a href="/home/" class="tab-link"><span class="material-icons">home</span></a>
+                    <a href="/fast-food/" class="tab-link"><span class="material-icons">bookmark</span></a>
+                    <a href="/info-producto/" class="tab-link tab-link-active"><span class="material-icons">shopping_bag</span></a>
+					<a href="#" class="tab-link"><span class="material-icons">notifications</span></a>
+					<a href="#" class="tab-link"><span class="material-icons">account_circle</span></a>
+                </div>
+            </nav>
+
+		
+			
+		</div><!--/view -->
+		
+		
+		
+	</div><!--/app -->
+	
+	
+	<script src="js/framework7.bundle.min.js"></script>
+	<script src="js/app.js"></script>
+	
+	
+	
+	
+	
+</body>
+</html>

@@ -1,0 +1,144 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap');
+:root{
+	--f7-theme-color:#000;
+	--f7-navbar-bg-color: #fff; /*navbar*/
+	--f7-navbar-link-color: #000; /*navbar link*/
+	--f7-navbar-text-color:#000;
+	--f7-bars-bg-color:#fff;/*toolbar*/
+	--f7-tabbar-link-inactive-color: #000; /*link toolbar*/
+	--f7-tabbar-link-active-color: #fb6a43; /*link active toolbar*/
+	--f7-block-margin-vertical:20px;
+	--f7-card-footer-border-color:transparent; 
+	--f7-panel-bg-color: #fb6a43;
+}
+body{
+	font-family: 'Roboto', sans-serif;
+	color: var(--f7-theme-color);
+}
+h1,h2,h3,h4,h5,h6,p{
+	margin: 2px 0;
+}
+.img-fluid{
+	max-width: 100%;
+}
+.img-center{
+	display: block;
+	margin: auto;
+}
+
+
+
+#nav-categorias .button{
+	border:1px solid #eee;
+	background-color: #fff;
+	color: var(--f7-theme-color);
+	font-size: 10px;
+	text-transform: inherit;
+	
+}
+#nav-categorias .button span{
+	color: #F09909;
+	font-size: 16px;
+}
+
+.row-titles .block-title{
+	color: var(--f7-theme-color);
+	font-size: 16px;
+}
+.row-titles .block-title-small{
+	color: #aaa;
+	font-size: 13px;
+	text-align: end;
+}
+
+.card.product{
+	text-align: center;
+}
+.card.product p{
+	color: #aaa;
+}
+.card.product .price{
+	font-weight: 700;
+	color: var(--f7-theme-color);
+}
+.card.product .review{
+
+}
+.card.product .review span{
+	color: #ef8e08;
+	font-size: 12px;
+}
+
+#product-columns .content{
+	padding-top: 10%;
+}
+
+
+
+#nav-panel .list ul{
+	background-color: transparent;
+	font-size: 14px;
+	color: #fff;
+}
+#nav-panel .list span{
+	font-size: 22px;
+}
+
+
+#info-producto h4{
+	font-size: 20px;
+}
+
+#info-producto .block-title{
+	color: var(--f7-theme-color);
+	font-size: 16px;
+}
+
+#info-producto .button{
+	margin-top: 30px;
+}
+
+.popup-confirm{
+	text-align: center;
+	color: #fff;
+}
+.popup-confirm .page{
+	background-color: var(--f7-panel-bg-color);
+	display: grid;
+  	align-content: center;
+}
+
+.popup-confirm span{
+	font-size: 100px;
+}
+.popup-confirm h2{
+	font-size: 28px;
+}
+.popup-confirm h4{
+	font-size: 18px;
+	font-weight: 400;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
